@@ -27,4 +27,4 @@ Ao experimentar novas estruturas ou plotagens de modelo, é muito mais fácil tr
 
 
 # Referências 
-Esse projeto é baseado no trabalho do pessoal de Harvard - mais informações neste [link](https://github.com/Aquarela-Advanced-Analytics/SEIR_COVID19_Dev.git)
+Esse projeto é baseado no trabalho da Alison Hill da universidade de Harvard -- mais informações neste [link](https://github.com/Aquarela-Advanced-Analytics/SEIR_COVID19_Dev.git)
