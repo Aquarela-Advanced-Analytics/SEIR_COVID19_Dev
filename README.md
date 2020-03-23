@@ -1,21 +1,30 @@
-# SEIR_COVID19_Dev
+# SEIR_COVID19_Dev - Português - Brasil
 
-(Developer's version) SEIR model for COVID-19 infection, including different clinical trajectories of infection, interventions to reduce transmission, and comparisons to healthcare capacity.
+## Objetivo
 
-The code that produces the interface and functionality of the Shiny App is in files
+1. Tornar o acesso ao modelo matemático de infecção acessível aos gestores de saúde e ao público em geral. 
+2. Apresentar de forma fácil e dinâmica as projeções das infecções, modos de reduzí-las e comparar com a capacidade de assistência médica nas regiões.
+3. Adicionar visualizações relativas aos estados e até municípios brasileiros. 
+
+
+O código que produz a interface e a funcionalidade do Shiny App está em arquivos
 * **server.R**
 * **ui.R**
 
-Files used in the explanatory sections of the app are
+Os arquivos usados ​​nas seções explicativas do aplicativo são
 * **SEIR.Rmd**
 * **www/Parameters.nb.html**
 
-All the functions that actually run the model and process the parameters are in the **code/functions.R** file
 
-If you want to run the code to produce the same outputs as Shiny but without dealing with the app structure, you can use the R scripts
+Todas as funções que realmente executam o modelo e processam os parâmetros estão no arquivo **code/functions.R**
+
+Se você deseja executar o código para produzir as mesmas saídas que o Shiny, mas sem lidar com a estrutura do aplicativo, é possível usar os scripts R
 * **runSpread.R**
 * **runInterventions.R**
 * **runCapacity.R**
 
-When trying out new model structures or plots, it is much easier to work with scripts instead of directly with the app. If you're adding a new feature, please add it via the functions.R file and a new script, so other can test it easily. Once troubleshooting is done, we can figure out how to integrated with the app
+Ao experimentar novas estruturas ou plotagens de modelo, é muito mais fácil trabalhar com scripts, em vez de diretamente com o aplicativo. Se você estiver adicionando um novo recurso, adicione-o através do arquivo functions.R e um novo script, para que outros possam testá-lo facilmente. Depois que a solução de problemas estiver concluída, podemos descobrir como integrar-ao aplicativo. 
 
+
+#Referências 
+Esse projeto é baseado no trabalho do pessoal de Harvard - mais informações neste [link](https://github.com/Aquarela-Advanced-Analytics/SEIR_COVID19_Dev.git)
